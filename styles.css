@@ -10,10 +10,11 @@ body {
   font-family: Arial, sans-serif;
   background-color: #c5c5c5;
   color: #333;
+  
 }
 
 header {
-  background-color: #333;
+  background-color: #8a8a8a;
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -101,6 +102,7 @@ section {
 
 /* Header and link styles */
 h1, h2 {
+  font-size:25;
   color: #030e1a;
 }
 
@@ -124,4 +126,73 @@ a:hover {
   text-decoration: underline;
 }
 
+#cv {
+  background-color: #8a8a8a;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
 
+.cv-left {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.cv-right {
+  flex: 1;
+}
+
+/* CV Top Section */
+.cv-top h1,.cv-contact h1,.cv-timeline h1 {
+  font-size: 30px;
+  color: #030e1a;
+}
+
+.cv-top h2 {
+  font-size: 25px;
+  color: #030e1a;
+  margin-top: 10px;
+}
+
+.cv-top p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+/* CV Contact Section */
+
+.cv-education h1,
+.cv-language h1 {
+  font-size: 25px;
+  color: #030e1a;
+  margin-top: 20px;
+}
+
+.cv-contact h2,
+.cv-timeline h2 {
+  font-size: 25px;
+  color: #030e1a;
+  margin-top: 10px;
+}
+
+/* CV Timeline */
+.cv-timeline h2 {
+  color: #030e1a;
+  margin-top: 20px;
+}
+
+.cv-timeline a {
+  text-decoration: none;
+  color: #030e1a;
+  display: block;
+  margin-top: 5px;
+}
+
+.cv-timeline p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 10px;
+}

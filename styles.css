@@ -10,9 +10,11 @@ body {
   font-family: Arial, sans-serif;
   background-color: #c5c5c5;
   color: #333;
+  padding-top:60px;
   
 }
 
+/* header */
 header {
   background-color: #8a8a8a;
   color: #fff;
@@ -20,6 +22,38 @@ header {
   text-align: center;
   font-weight: 700;
 }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure the menu appears above other content */
+
+}
+
+.fixed-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.fixed-menu li {
+  margin-right: 20px; /* Adjust the spacing between menu items */
+}
+
+.fixed-menu a {
+  text-decoration: none;
+  color: #fff; /* Customize the text color */
+  font-weight: bold;
+}
+
+/* Style for the active menu item, if needed */
+.fixed-menu a:hover {
+  color: #ff5733; /* Customize the hover color */
+}
+
 /* About Me Section */
 .about-image {
   float: left;
